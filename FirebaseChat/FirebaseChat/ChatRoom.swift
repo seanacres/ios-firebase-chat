@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct ChatRoom: Codable {
+    let title: String
+    let id: String
+    let timestamp: Date
+}

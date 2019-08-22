@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import MessageKit
+
+struct Message: MessageType {
+    var messageId: String
+    var sender: SenderType
+    var sentDate: Date
+    var kind: MessageKind
+}
